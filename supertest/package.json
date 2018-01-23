@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint src/**",
     "test": "jest src",
-    "coverage": "jest --collectCoverageFrom=src/**.js --coverage src"
+    "coverage": "jest --collectCoverageFrom=src/**.js --collectCoverageFrom=!src/index.js --coverage src"
   },
   "author": "",
   "license": "ISC",
