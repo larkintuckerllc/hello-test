@@ -1,0 +1,24 @@
+{
+  "name": "myexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/**",
+    "test": "jest src",
+    "coverage": "jest --collectCoverageFrom=src/**.js --coverage src"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jest": "^21.7.0",
+    "jest": "^22.1.4",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
